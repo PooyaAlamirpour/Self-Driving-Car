@@ -36,7 +36,7 @@ The path planning algorithm determines the final waypoints to be followed by the
 
 ### Using the project
 For using this project, you should consider setting up some tools. For more information, check the related [Udacity repository](https://github.com/udacity/CarND-Capstone).
-* Clone the project repository: `git clone git@github.com:PooyaAlamirpour/Self-Driving-Car.git`
+* Clone the project repository: `git clone https://github.com/PooyaAlamirpour/Self-Driving-Car.git`
 * Install python dependencies: 
 	* `cd CarND-Capstone`
 	* `pip install -r requirements.txt`
