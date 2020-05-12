@@ -46,3 +46,11 @@ For using this project, you should consider setting up some tools. For more info
 	* `source devel/setup.sh`
 	* `roslaunch launch/styx.launch`
 * Now it is time to run the simulator.	
+
+The excellent news is that if you want to run your project in the real world, the Udacity has provided a [training bag](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic_light_bag_file.zip) that consists of the recorded data of the Udacity self-driving car. 
+* Download [training bag](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic_light_bag_file.zip)
+* Unzip the file: `unzip traffic_light_bag_file.zip`
+* Run the training bag: `rosbag play -l traffic_light_bag_file/traffic_light_training.bag`
+* Run your project: 
+	* `cd CarND-Capstone/ros`
+	* `roslaunch launch/site.launch`
