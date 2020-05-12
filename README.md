@@ -40,3 +40,9 @@ For using this project, you should consider setting up some tools. For more info
 * Install python dependencies: 
 	* `cd CarND-Capstone`
 	* `pip install -r requirements.txt`
+* Run the code
+	* `cd ros`
+	* `catkin_make`
+	* `source devel/setup.sh`
+	* `roslaunch launch/styx.launch`
+* Now it is time to run the simulator.	
