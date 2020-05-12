@@ -52,9 +52,7 @@ class WaypointUpdater(object):
 
         self.final_waypoints_pub = rospy.Publisher('final_waypoints', Lane, queue_size=1)
 
-        # TODO: Add a subscriber for /obstacle_waypoint below
-
-        
+        # DONE: Add a subscriber for /obstacle_waypoint below
         self.loop()
 
 
@@ -198,12 +196,12 @@ class WaypointUpdater(object):
 
     # Callback function when receiving close_to_tl
     def close_to_tl_cb(self, msg):
-        # TODO: Callback for /traffic_waypoint message. Implement
+        # DONE: Callback for /traffic_waypoint message. Implement
         self.close_to_tl = msg.data
         
     # Callback function when receiving traffic_waypoint
     def traffic_cb(self, msg):
-        # TODO: Callback for /traffic_waypoint message. Implement
+        # DONE: Callback for /traffic_waypoint message. Implement
         self.stopline_wp_idx = msg.data
 
 
