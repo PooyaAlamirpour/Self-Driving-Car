@@ -7,7 +7,7 @@ Each humankind has a love in his life, and here it is my love! Carla.
 ![The target vehicle](imgs/MyLove.jpg)
 
 It is my honor that finally, I have done a fantastic course after six incredible months in the [Udacity](https://www.udacity.com/). In this project, I have implemented an integrated system that based on that a car is going to detect traffic light, keeps in the road, and tries to control his steering and speed in the robot operating system (ROS). There is a Virtual Machine that is provided by the Udacity that you can find [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/Udacity_VM_Base_V1.0.0.zip).
-This implementation has many different parts as below: 
+This implementation has three different parts as below: 
 * Longitudinal and lateral movement 
 * Traffic light status detection
 * Path planning
